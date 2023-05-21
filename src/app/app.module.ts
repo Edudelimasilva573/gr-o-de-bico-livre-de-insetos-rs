@@ -11,6 +11,7 @@ import {MatButtonModule} from '@angular/material/button';
 import { HeaderComponent } from './views/header/header.component';
 import { JogosComponent } from './views/jogos/jogos.component';
 import { HomeComponent } from './views/home/home.component';
+import { FooterComponent } from './views/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +21,7 @@ import { HomeComponent } from './views/home/home.component';
     HeaderComponent,
     JogosComponent,
     HomeComponent,
+    FooterComponent,
   ],
   imports: [
     BrowserModule,
